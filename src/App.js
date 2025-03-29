@@ -33,9 +33,9 @@ export default function App() {
 
   return (
     <div className="App">
-      <div className="top-right-text">Author Amay Sandanshiv</div>
+      <div className="top-right-text">Developed by Amay Sandanshiv</div>
       <div className="flex-container">
-        <div>Stop watch</div>
+        <div>Stopwatch</div>
         <div className="timer-container">
           <span>{String(hours).padStart(2, "0")}</span> :
           <span>{String(minutes).padStart(2, "0")}</span> :
